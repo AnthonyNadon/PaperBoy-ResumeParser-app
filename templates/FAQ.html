@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Assurez-vous que votre CSS est correctement lié ici -->
+</head>
+<body>
+    <!-- Logo qui sert de lien vers la page d'accueil -->
+    <div class="header-content">
+        <a href="{{ url_for('index') }}" class="logo-link">
+            <img src="https://i.postimg.cc/85032nYh/Asset-2-2x.png" alt="Logo" class="logo logo-faq">
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="faq-section">
+            <h1>FAQ</h1>
+            <!-- Question 1 -->
+            <div class="faq-question">
+                <h3>In which languages is the application available?</h3>
+                <p class="faq-answer">Currently, PaperBoy is only available in English.</p>
+            </div>
+            <!-- Question 2 -->
+            <div class="faq-question">
+                <h3>What specific AI models and tools does the application use?</h3>
+                <p class="faq-answer">The application utilizes a custom model, trained using Spacy and RoBERTa-uncased, to deliver precise and efficient performance.</p>
+            </div>
+            <!-- Question 3 -->
+            <div class="faq-question">
+                <h3>What data was used to train the current model?</h3>
+                <p class="faq-answer">A: The current model was trained on a diverse dataset of just over 1000 annotated resumes, ensuring a broad understanding and adaptability to various professional profiles</p>
+            </div>
+            <!-- Question 4 -->
+            <div class="faq-question">
+                <h3>How does the model perform in terms of accuracy and loss over time?</h3>
+                <p class="faq-answer">A: The model demonstrates consistent improvement in accuracy and reduction in loss over training iterations. For instance, at 20000 iterations, it achieved an accuracy of 86.67% with significantly reduced loss.</p>
+            </div>
+            <!-- Question 5 -->
+            <div class="faq-question">
+                <h3>What advanced techniques and technologies are employed to convert unstructured to structured data in the application?</h3>
+                <p class="faq-answer">A: To effectively convert unstructured to structured data, the application uses a blend of natural language processing (NLP) techniques, machine learning algorithms, and regular expressions (Regex). This includes tokenization, named entity recognition, and the sophisticated parsing capabilities of Spacy and RoBERTa-uncased models. Regex is used for precise pattern matching, facilitating the accurate extraction and organization of key information from varied resume formats into structured data.</p>
+            </div>
+            <!-- Question 6 -->
+            <div class="faq-question">
+                <h3>As an HR professional, should I be concerned about this technology replacing my role?</h3>
+                <p class="faq-answer">A: Absolutely not. This technology is designed to assist HR professionals, not replace them. It streamlines the initial stages of the recruitment process, such as resume screening and data organization, allowing HR personnel to focus on more strategic and interpersonal aspects of their roles. It enhances decision-making but does not substitute the critical human judgment and expertise that HR professionals bring to the table.</p>
+            </div>
+            </div>
+            
+    </div>
+
+    <script>
+        // JavaScript pour gérer l'affichage des réponses
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', event => {
+                let answer = item.querySelector('.faq-answer');
+                if (answer.style.display === "none" || !answer.style.display) {
+                    answer.style.display = "block";
+                    answer.style.opacity = 0;
+                    setTimeout(() => {
+                        answer.style.opacity = 1;
+                    }, 10);
+                } else {
+                    answer.style.opacity = 0;
+                    setTimeout(() => {
+                        answer.style.display = "none";
+                    }, 500); // Durée correspondant à la durée du fade-out dans le CSS
+                }
+            })
+        });
+    </script>
+</body>
+</html>

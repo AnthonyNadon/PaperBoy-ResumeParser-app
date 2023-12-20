@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="UTF-8">
+    <title>Traitement en cours</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Processing in progress...</h1>
+        <p>Please wait while your files are being processed.</p>
+        <div id="lottie-container"></div>
+    </div>
+
+    
+
+    <script>
+      lottie.loadAnimation({
+        container: document.getElementById('lottie-container'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '{{ url_for('static', filename='lottie/loading.json') }}'
+      });
+
+      setTimeout(function() {
+          window.location.href = "{{ url_for('results') }}";
+      }, 3000);
+    </script>
+  </body>
+</html>
+    </script>
+  </body>
+</html>

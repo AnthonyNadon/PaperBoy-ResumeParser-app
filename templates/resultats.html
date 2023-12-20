@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="UTF-8">
+    <title>Résultats</title>
+</head>
+<body class="page-resultats">
+    <div class="container">
+        <div class="header-content">
+            <a href="{{ url_for('index') }}" class="logo-link">
+                <img src="https://i.postimg.cc/85032nYh/Asset-2-2x.png" alt="Logo" class="logo">
+            </a>
+            <div class="header-text">
+                <h1>Results</h1>
+                <p>The file processing is complete. You can download the results file below.</p>
+                <a href="{{ url_for('download_file') }}" class="button">Download CSV File</a>
+                </div>
+        </div>
+
+        <!-- Tableau pour afficher les données CSV -->
+        <table>
+            {% if data %}
+                <!-- En-têtes du tableau -->
+                <thead>
+                    <tr>
+                        {% for key in data[0].keys() %}
+                            <th>{{ key }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <!-- Corps du tableau -->
+                <tbody>
+                    {% for row in data %}
+                        <tr>
+                            {% for value in row.values() %}
+                                <td>{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            {% else %}
+                <p>Aucune donnée à afficher.</p>
+            {% endif %}
+        </table>
+    </div>
+</body>
+</html>

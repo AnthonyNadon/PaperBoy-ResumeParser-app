@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.postimg.cc/fRqbZ3Xn/paperboy-Asset.png" alt="Logo" class="logo">
+        <h1 class="typing">Upload your Resumes (.PDF)</h1>
+        <form action="{{ url_for('upload_files') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".pdf" multiple>
+            <button type="submit">GO!</button>
+        </form>
+    </div>
+
+    <!-- Lien vers la page FAQ -->
+    <div class="faq-link-container">
+        <a href="/faq" class="faq-link">FAQ</a>
+    </div>
+</body>
+</html>
+
