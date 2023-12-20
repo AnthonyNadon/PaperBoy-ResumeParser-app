@@ -17,7 +17,9 @@ Ce projet est une application de gestion de CV qui utilise des techniques avanc�
 - Base de données (optionnelle pour le stockage des CV)
 
 ## Installation
-to do
+
+Télécharger le modèle [ici](https://drive.google.com/drive/folders/1c8tMoQUJc480egrLTwTEE64CYxV7HLQI?usp=drive_link).
+
 ## Utilisation
 to do
 
