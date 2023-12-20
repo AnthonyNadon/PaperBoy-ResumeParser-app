@@ -55,8 +55,60 @@ python PaperBoy.py
 ## Utilisation
 Après avoir lancé l'application, ouvrez un navigateur et accédez à `http://127.0.0.1:5000` pour interagir avec l'application.
 
-## Utilisation
-to do
+# PaperBoy: Resume Parser with Flask, SpaCy & RoBERTa
+
+## Description
+This project is a resume management application that uses advanced artificial intelligence techniques to automate and optimize the process of sorting and analyzing resumes. The application is designed to help human resources professionals efficiently manage a large number of applications by converting unstructured data into structured information using NLP, machine learning models like Spacy and RoBERTa-uncased, as well as Regex for pattern recognition.
+
+## Features
+- **Automated Processing**: The application processes resumes in various formats, including PDF and Word.
+- **Data Extraction**: Uses NLP techniques to extract relevant information from resumes.
+- **Intelligent Analysis**: Employs AI models to evaluate and classify applications.
+- **Intuitive User Interface**: Facilitates navigation and access to information by users.
+- **Data Security**: Protects candidate information with advanced encryption protocols.
+
+## Prerequisites
+- Python 3.8+
+- Python Libraries: Spacy, PyTorch (for RoBERTa), Regex
+- Database (optional for storing resumes)
+
+## Installation
+
+Follow these steps to install and configure the application:
+
+### 1. Clone the Repository
+Clone the GitHub repository to your local machine using:
+```bash
+git clone https://github.com/AnthonyNadon/PaperBoy-ResumeParser-app.git
+```
+
+### 2. Install Dependencies
+In the project directory, install the necessary dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Download the Model
+Download the model by clicking on the following link:
+[Download the model](https://drive.google.com/uc?export=download&id=1D3DCtKGzi33YQFQZ7lSANkdcTlzocb3H)
+
+### 4. Place the Model in the Appropriate Directory
+After downloading the model file, place it in the correct directory.
+```
+PaperBoy-ResumeParser-app-main/
+├── PaperBoy-model/
+```
+Unzip the file.
+
+### 5. Launch the Application
+Finally, launch the application:
+
+```bash
+python PaperBoy.py
+```
+
+## Usage
+After launching the application, open a browser and go to `http://127.0.0.1:5000` to interact with the application.
 
 
 
