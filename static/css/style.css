@@ -1,0 +1,286 @@
+body {
+    font-family: 'Caprasimo';
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.postimg.cc/yxQqMPBZ/background2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixer l'image de fond */
+    color: rgb(11, 11, 11);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Caprasimo';
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://i.postimg.cc/yxQqMPBZ/background2.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(11, 11, 11);
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="file"], button, a.button {
+    font-family: 'Caprasimo';
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+button, a.button {
+    background: linear-gradient(to right, #000000, #151515);
+    color: white;
+}
+
+button:hover, a.button:hover {
+    background: linear-gradient(to right, #f86f00, #f86f00);
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    input[type="file"], button, a.button {
+        width: 100%;
+    }
+}
+
+.typing {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(30, end), blink-cursor .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-cursor {
+    50% { border-color: transparent; }
+}
+
+/* Style pour le logo */
+.logo {
+    display: block;
+    position: absolute; /* Position absolue */
+    top: 20%; /* Espace depuis le haut de la page */
+    left: 50%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Ajustement fin pour le centrage horizontal */
+    max-width: 150px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+#lottie-container {
+    width: 300px; /* Ajustez selon la taille souhaitée pour l'animation */
+    height: 300px; /* Ajustez selon la taille souhaitée pour l'animation */
+    margin: 0 auto; /* Centre l'animation horizontalement */
+}
+
+/* Styles spécifiques pour la page de résultats */
+.page-resultats body {
+    font-family: 'Caprasimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.postimg.cc/yxQqMPBZ/background2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(11, 11, 11);
+    text-align: center;
+}
+
+.page-resultats .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.page-resultats .header-content {
+    display: flex;
+    flex-direction: column; /* Empiler les éléments verticalement */
+    align-items: center; /* Aligner horizontalement au centre */
+    text-align: center; /* Aligner le texte au centre */
+    margin-bottom: 90px;
+    margin-top: 5%;
+}
+
+.page-resultats .logo {
+    order: -1; /* Place le logo en premier */
+    max-width: 100px;
+    height: auto;
+    margin-left: 40%; 
+    margin-right: auto;
+    margin-bottom: auto; /* Ajustez selon le besoin */
+    margin-top: -2%;
+}
+
+.page-resultats h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.page-resultats p {
+    margin-bottom: 20px;
+}
+
+.page-resultats .button {
+    background: linear-gradient(to right, #000000, #151515);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.page-resultats .button:hover {
+    background: linear-gradient(to right, #f86f00, #f86f00);
+}
+
+.page-resultats .table-container {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.page-resultats table {
+    width: auto;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.page-resultats th, .page-resultats td {
+    border: 1px solid #8b8b8b;
+    padding: 8px;
+    font-family: 'Consolas', monospace;
+    font-size: 15px;
+}
+
+.page-resultats tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+    .page-resultats .header-content {
+        flex-direction: column; /* Empiler les éléments verticalement sur les petits écrans */
+    }
+
+    .page-resultats .logo {
+        order: 0; /* Réinitialise l'ordre si nécessaire */
+        margin-bottom: 20px; /* Ajustez selon le besoin */
+    }
+
+    .page-resultats .button, .page-resultats table {
+        width: 90%;
+    }
+
+    .page-resultats h1 {
+        font-size: 2em;
+    }
+
+    .page-resultats body {
+        background-size: cover;
+    }
+}
+
+.faq-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+/* Style pour le lien FAQ */
+.faq-link-container {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 25%;
+    width: 100%;
+    background: none; /* Retirer le fond */
+}
+
+.faq-link {
+    color: black; /* Texte en noir */
+    text-decoration: none;
+    font-family: 'Caprasimo', sans-serif;
+    font-size: 15px;
+}
+
+.faq-link:hover {
+    text-decoration: underline;
+}
+
+.faq-section {
+    /* Vos styles existants pour faq-section */
+    background: none; /* Retire le fond blanc */
+}
+
+.faq-question h3 {
+    cursor: pointer; /* Change le curseur pour indiquer la possibilité de cliquer */
+    margin-bottom: 50px;
+    
+}
+
+.faq-question h3:hover {
+    color: #f86f00; /* Couleur orange pour le texte au survol */
+}
+
+.faq-answer {
+    display: none; /* Masquer la réponse par défaut */
+    transition: opacity 0.5s ease; /* Effet de fondu pour l'opacité */
+    font-family: 'Consolas', monospace;
+    font-size: small;
+    margin-top: -30px;
+
+}
+
+.faq-section h1 {
+    margin-top: 0; /* Réduire l'espace au-dessus du titre */
+    margin-bottom: 50px; /* Augmenter l'espace en dessous du titre */
+    /* Ajoutez d'autres styles ici si nécessaire, comme la taille de la police, etc. */
+}
+
+/* Style spécifique pour le logo sur la page FAQ */
+.logo-faq {
+    display: block;
+    position: absolute; /* Position absolue */
+    top: 10%; /* Ajustez l'espace depuis le haut de la page selon vos besoins */
+    left: 87%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Ajustement fin pour le centrage horizontal */
+    max-width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
