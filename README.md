@@ -23,9 +23,8 @@ Suivez ces étapes pour installer et configurer l'application :
 ### 1. Cloner le Dépôt
 Clonez le dépôt GitHub sur votre machine locale en utilisant :
 ```bash
-git clone https://github.com/votre_nom_utilisateur/votre_repo.git
+git clone [ttps://github.com/votre_nom_utilisateur/votre_repo.git](https://github.com/AnthonyNadon/PaperBoy-ResumeParser-app.git)
 ```
-Remplacez `https://github.com/votre_nom_utilisateur/votre_repo.git` par l'URL de votre dépôt GitHub.
 
 ### 2. Installer les Dépendances
 Dans le répertoire du projet, installez les dépendances nécessaires :
