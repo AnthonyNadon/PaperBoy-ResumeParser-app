@@ -18,7 +18,7 @@ Ce projet est une application de gestion de CV qui utilise des techniques avanc�
 
 ## Installation
 
-Télécharger le modèle [ici](https://drive.google.com/drive/folders/1c8tMoQUJc480egrLTwTEE64CYxV7HLQI?usp=drive_link).
+Télécharger le modèle [ici](https://drive.google.com/uc?export=download&id=1D3DCtKGzi33YQFQZ7lSANkdcTlzocb3H).
 
 ## Utilisation
 to do
