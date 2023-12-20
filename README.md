@@ -17,14 +17,10 @@ Ce projet est une application de gestion de CV qui utilise des techniques avanc�
 - Base de données (optionnelle pour le stockage des CV)
 
 ## Installation
-Expliquez ici comment installer et configurer l'application. Incluez les commandes nécessaires pour installer les dépendances, configurer les bases de données, etc.
-
+to do
 ## Utilisation
-Fournissez des instructions détaillées sur l'utilisation de l'application, y compris des exemples de commandes et des captures d'écran si possible.
+to do
 
-## Support et Contribution
-Pour le support, contactez [adresse email].
-Contributions : les instructions pour contribuer au projet (par exemple, comment soumettre des pull requests).
 
 
 
