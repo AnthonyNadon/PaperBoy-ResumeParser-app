@@ -4,7 +4,10 @@
 ## Description
 Ce projet est une application de gestion de CV qui utilise des techniques avancées d'intelligence artificielle pour automatiser et optimiser le processus de tri et d'analyse des curriculum vitae. L'application est conçue pour aider les professionnels des ressources humaines à gérer efficacement un grand nombre de candidatures, en convertissant des données non structurées en informations structurées grâce à l'utilisation de NLP, de modèles d'apprentissage machine comme Spacy et RoBERTa, ainsi que de Regex pour la reconnaissance de motifs.
 
-![GIF Animé](https://i.postimg.cc/L4q6VQLf/ezgif-com-video-to-gif-converted.gif)
+<p align="center">
+  <img src="https://i.postimg.cc/sxPLcRcs/ezgif-com-video-to-gif-converted-1.gif"/>
+</p>
+
 
 ## Fonctionnalités
 - **Traitement Automatisé** : L'application traite les CV au format PDF
@@ -79,6 +82,11 @@ Le graphique ci-dessous illustre l'évolution de la perte (Loss NER) et de la pr
 
 ## Description
 This project is a resume management application that uses advanced artificial intelligence techniques to automate and optimize the process of sorting and analyzing resumes. The application is designed to help human resources professionals efficiently manage a large number of applications by converting unstructured data into structured information using NLP, machine learning models like Spacy and RoBERTa-uncased, as well as Regex for pattern recognition.
+
+<p align="center">
+  <img src="https://i.postimg.cc/sxPLcRcs/ezgif-com-video-to-gif-converted-1.gif"/>
+</p>
+
 
 ## Features
 - **Automated Processing**: The application processes resumes in PDF format.
