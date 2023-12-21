@@ -60,11 +60,10 @@ Après avoir lancé l'application, ouvrez un navigateur et accédez à `http://1
 This project is a resume management application that uses advanced artificial intelligence techniques to automate and optimize the process of sorting and analyzing resumes. The application is designed to help human resources professionals efficiently manage a large number of applications by converting unstructured data into structured information using NLP, machine learning models like Spacy and RoBERTa-uncased, as well as Regex for pattern recognition.
 
 ## Features
-- **Automated Processing**: The application processes resumes in various formats, including PDF and Word.
+- **Automated Processing**: The application processes resumes in PDF format.
 - **Data Extraction**: Uses NLP techniques to extract relevant information from resumes.
-- **Intelligent Analysis**: Employs AI models to evaluate and classify applications.
-- **Intuitive User Interface**: Facilitates navigation and access to information by users.
-- **Data Security**: Protects candidate information with advanced encryption protocols.
+- **Intelligent Analysis**: Employs AI models to process and classify applications.
+- **Intuitive User Interface**: Facilitates navigation by users.
 
 ## Prerequisites
 - Python 3.8+
