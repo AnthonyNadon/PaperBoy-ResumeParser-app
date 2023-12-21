@@ -1,6 +1,8 @@
 # PaperBoy : Gestionnaire de CV sous Flask, SpaCy & RoBERTa
 *(English below)*
 
+[DEMONSTRATION VIDÉO FRANCAIS SEULEMENT](https://vimeo.com/897013235)
+
 ## Description
 Ce projet est une application de gestion de CV qui utilise des techniques avancées d'intelligence artificielle pour automatiser et optimiser le processus de tri et d'analyse des curriculum vitae. L'application est conçue pour aider les professionnels des ressources humaines à gérer efficacement un grand nombre de candidatures, en convertissant des données non structurées en informations structurées grâce à l'utilisation de NLP, de modèles d'apprentissage machine comme Spacy et RoBERTa, ainsi que de Regex pour la reconnaissance de motifs.
 
