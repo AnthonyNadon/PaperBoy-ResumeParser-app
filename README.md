@@ -66,6 +66,13 @@ python PaperBoy.py
 ## Utilisation
 Après avoir lancé l'application, ouvrez un navigateur et accédez à `http://127.0.0.1:5000` pour interagir avec l'application.
 
+## Résultats de l'Entraînement du Modèle
+
+Le graphique ci-dessous illustre l'évolution de la perte (Loss NER) et de la précision (Accuracy NER) du modèle d'apprentissage automatique au cours des différents batches d'entraînement. Notamment, le modèle a atteint un niveau de précision à 87%, ce qui démontre son efficacité et sa fiabilité dans la tâche de reconnaissance d'entités nommées (NER).
+
+![Graphique de la perte et de la précision](https://i.postimg.cc/cCv0HCM6/8cbdced2-c6ef-4b72-a03a-ae9ff8056b1d.png)
+
+
 # PaperBoy: Resume Parser with Flask, SpaCy & RoBERTa
 
 ## Description
@@ -132,6 +139,12 @@ python PaperBoy.py
 
 ## Usage
 After launching the application, open a browser and go to `http://127.0.0.1:5000` to interact with the application.
+
+## Model Training Results
+
+The graph below illustrates the evolution of the loss (Loss NER) and the accuracy (Accuracy NER) of the machine learning model over various training batches. Notably, the model achieved a level of 87% accuracy, demonstrating its effectiveness and reliability in the task of Named Entity Recognition (NER).
+
+![Graph of Loss and Accuracy](https://i.postimg.cc/cCv0HCM6/8cbdced2-c6ef-4b72-a03a-ae9ff8056b1d.png)
 
 
 
