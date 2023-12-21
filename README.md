@@ -2,14 +2,13 @@
 *(English below)*
 
 ## Description
-Ce projet est une application de gestion de CV qui utilise des techniques avancées d'intelligence artificielle pour automatiser et optimiser le processus de tri et d'analyse des curriculum vitae. L'application est conçue pour aider les professionnels des ressources humaines à gérer efficacement un grand nombre de candidatures, en convertissant des données non structurées en informations structurées grâce à l'utilisation de NLP, de modèles d'apprentissage machine comme Spacy et RoBERTa-uncased, ainsi que de Regex pour la reconnaissance de motifs.
+Ce projet est une application de gestion de CV qui utilise des techniques avancées d'intelligence artificielle pour automatiser et optimiser le processus de tri et d'analyse des curriculum vitae. L'application est conçue pour aider les professionnels des ressources humaines à gérer efficacement un grand nombre de candidatures, en convertissant des données non structurées en informations structurées grâce à l'utilisation de NLP, de modèles d'apprentissage machine comme Spacy et RoBERTa, ainsi que de Regex pour la reconnaissance de motifs.
 
 ## Fonctionnalités
-- **Traitement Automatisé** : L'application traite les CV en divers formats, y compris PDF et Word.
+- **Traitement Automatisé** : L'application traite les CV au format PDF
 - **Extraction de Données** : Utilise des techniques NLP pour extraire des informations pertinentes des CV.
-- **Analyse Intelligente** : Emploie des modèles d'IA pour évaluer et classer les candidatures.
-- **Interface Utilisateur Intuitive** : Facilite la navigation et l'accès aux informations par les utilisateurs.
-- **Sécurité des Données** : Protège les informations des candidats avec des protocoles de cryptage avancés.
+- **Analyse Intelligente** : Emploie des modèles d'IA pour classer les candidatures.
+- **Interface Utilisateur Intuitive** : Facilite la navigation pour les utilisateurs.
 
 ## Prérequis
 - Python 3.8+
@@ -21,7 +20,7 @@ Ce projet est une application de gestion de CV qui utilise des techniques avanc�
 Suivez ces étapes pour installer et configurer l'application :
 
 ### 1. Cloner le Dépôt
-Clonez le dépôt GitHub sur votre machine locale en utilisant :
+Clonez le dépôt GitHub sur votre machine locale en utilisant, ou tout simplement télécharger le fichier .zip :
 ```bash
 git clone https://github.com/AnthonyNadon/PaperBoy-ResumeParser-app.git
 ```
@@ -81,6 +80,7 @@ Clone the GitHub repository to your local machine using:
 ```bash
 git clone https://github.com/AnthonyNadon/PaperBoy-ResumeParser-app.git
 ```
+or simply download the zip file
 
 ### 2. Install Dependencies
 In the project directory, install the necessary dependencies:
