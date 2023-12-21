@@ -4,6 +4,8 @@
 ## Description
 Ce projet est une application de gestion de CV qui utilise des techniques avancées d'intelligence artificielle pour automatiser et optimiser le processus de tri et d'analyse des curriculum vitae. L'application est conçue pour aider les professionnels des ressources humaines à gérer efficacement un grand nombre de candidatures, en convertissant des données non structurées en informations structurées grâce à l'utilisation de NLP, de modèles d'apprentissage machine comme Spacy et RoBERTa, ainsi que de Regex pour la reconnaissance de motifs.
 
+![GIF Animé](https://i.postimg.cc/L4q6VQLf/ezgif-com-video-to-gif-converted.gif)
+
 ## Fonctionnalités
 - **Traitement Automatisé** : L'application traite les CV au format PDF
 - **Extraction de Données** : Utilise des techniques NLP pour extraire des informations pertinentes des CV.
