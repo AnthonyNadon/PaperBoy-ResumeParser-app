@@ -12,7 +12,19 @@ Ce projet est une application de gestion de CV qui utilise des techniques avanc�
 
 ## Prérequis
 - Python 3.8+
-- Bibliothèques Python : Spacy, PyTorch (pour RoBERTa), Regex
+- Bibliothèques Python nécessaires (requirements.txt) :
+  - Flask==3.0.0
+  - pandas==1.5.3
+  - spacy==3.7.2
+  - PyMuPDF==1.23.7
+  - regex==2023.8.8
+  - transformers==4.31.0
+  - spacy-alignments==0.9.1
+  - spacy-curated-transformers==0.2.1
+  - spacy-legacy==3.0.12
+  - spacy-llm==0.6.4
+  - spacy-loggers==1.0.5
+  - spacy-transformers==1.3.3
 - Base de données (optionnelle pour le stockage des CV)
 
 ## Installation
@@ -67,7 +79,19 @@ This project is a resume management application that uses advanced artificial in
 
 ## Prerequisites
 - Python 3.8+
-- Python Libraries: Spacy, PyTorch (for RoBERTa), Regex
+- Required Python Libraries (requirements.txt) :
+  - Flask==3.0.0
+  - pandas==1.5.3
+  - spacy==3.7.2
+  - PyMuPDF==1.23.7
+  - regex==2023.8.8
+  - transformers==4.31.0
+  - spacy-alignments==0.9.1
+  - spacy-curated-transformers==0.2.1
+  - spacy-legacy==3.0.12
+  - spacy-llm==0.6.4
+  - spacy-loggers==1.0.5
+  - spacy-transformers==1.3.3
 - Database (optional for storing resumes)
 
 ## Installation
